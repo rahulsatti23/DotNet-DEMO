@@ -9,11 +9,11 @@ fi
 
 read -r -d '' NOTES << EOM
 \`\`\`
-docker pull ghcr.io/benc-uk/dotnet-demoapp:$VER
+docker pull ghcr.io/rahulsatti23/dotnet-demoapp:$VER
 \`\`\`
 
 \`\`\`
-docker run --rm -it -p 3000:3000 ghcr.io/benc-uk/dotnet-demoapp:$VER
+docker run --rm -it -p 3000:3000 ghcr.io/rahulsatti23/dotnet-demoapp:$VER
 \`\`\`
 EOM
 
